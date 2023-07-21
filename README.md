@@ -7,4 +7,5 @@
 6. Q learning.ipynb Reinforcement learning model for stock trading
 Data/Stock_info.csv a file generated from yahoo finance data to avoid fetching data every single time  
 get_yfinance_data.py fetches yahoo finance data on all Nasdaq ticker companies  
+DS-Sample.yml Conda environment used for the notebooks
 
