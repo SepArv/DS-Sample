@@ -35,7 +35,7 @@ class stock_df_generator:
     
     def get_stock_info(self):
         try:
-            df = pd.read_csv(self._df_fname, low_memory=False, index_col=0, thousands=',')
+            df = pd.read_csv('Data/'+self._df_fname, low_memory=False, index_col=0, thousands=',')
             print('DF loaded')
         except FileNotFoundError:
             #Build a dictionary with information if file doesnt exists
