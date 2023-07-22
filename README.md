@@ -1,4 +1,6 @@
-# DS-Sample
+# This repository acts as a demonstration repository for Stock Info data processing and Machine Learning model development in Python
+
+
 Data/Stock_info.csv a file generated from yahoo finance data to avoid fetching data every single time  
 get_yfinance_data.py fetches yahoo finance data on all Nasdaq ticker companies   
 DS-Sample.yml Conda environment used for the notebooks  
